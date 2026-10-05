@@ -19,9 +19,19 @@ highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+# Blog posts use the same directory as the existing protected items.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /fb766f3526a3cf4578dd8df5fb6e9b6e96d98635/blog/:title
+      protected: true
+      sitemap: false
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Sapphire'
-description:	       "A physicist's all in one website"
+title:               'Abhishek Nath'
+description:         'personal website'
 author:              'Abhishek Nath'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Hi there, I'm Abhishek!
+title: Hi there!
 permalink: /about
 ---
 
-<!-- THIS IS HOW YOU CAN COMMENT OUT IN HTML-->
-<p> 
-I'm currently doing my physics PhD from Heidelberg University. When not working, I binge watch movies a lot, code (<em> only when I get bored of movies </em>) and obscurely plan to make a self-financed movie one day. My idea to start a github+Jekyll driven static website originated simply because I wish to learn more about version control and polish my skills on coding. Along with that, over time, I noticed that I've somehow became a little reluctant with social media. However, it was too tempting to absolutely give up my digital presence and that was another motivation for having a self made website for myself</p>
+**I'm Abhishek**, and I'm from West Bengal, India. I completed my BS–MS dual degree in physics at the Indian Institute of Science Education and Research, Kolkata.
 
-<div id="homepage"> This website is not intented to be very professional. It is just a well-kept digital version of myself encompassing a few different spheres I'm interested in. For these and many other reasons, this site will always be under construction  </div>
+I'm currently a final-year PhD student in experimental high-energy physics at Heidelberg University, working in Prof. Johanna Stachel's lab. I work with the **A** **L**arge **I**on **C**ollider **E**xperiment (ALICE) Collaboration at the **L**arge **H**adron **C**ollider (LHC). I've also been part of the [HighRR Research Training Group](https://www.physik.uni-heidelberg.de/highrr/).
 
+My PhD focuses primarily on applying machine learning to the analysis of direct photons and neutral mesons in ALICE Run 2 data. I'm also keenly interested in detector development and have contributed to a detector simulation project for ALICE 3.
+
+Outside work, I'm interested in movies, sports, and travelling.

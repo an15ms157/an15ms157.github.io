@@ -4,6 +4,7 @@
   <ul class="related-posts">
     {% for tag in page.tags %}
       {% for mypost in site.tags[tag] limit:3 %}
+        {% if mypost.protected and page.protected != true %}{% continue %}{% endif %}
         {% if listed_posts_urls contains mypost.url %}
         {% else %}
           <li>
