@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<div class="pcm-work">
+  <article class="pcm-article">
+    {% include pcm-direct-photons.html %}
+  </article>
+  <aside class="work-publications" aria-label="Publications">
+    {{ content }}
+  </aside>
+  <section class="pcm-references" aria-labelledby="refs">
+    {% include pcm-references.html %}
+  </section>
+</div>
+<script src="{{ '/assets/js/pcm-direct-photons.js' | relative_url }}" defer></script>
